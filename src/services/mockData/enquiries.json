@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "Rajesh Verma",
+    "interestedCourse": "Full Stack Web Development",
+    "phone": "+91 9876543211",
+    "email": "rajesh.verma@email.com",
+    "enquiryDate": "2024-02-18",
+    "status": "New",
+    "followUpDate": "2024-02-22"
+  },
+  {
+    "Id": 2,
+    "name": "Pooja Agarwal",
+    "interestedCourse": "Python Programming",
+    "phone": "+91 8765432110",
+    "email": "pooja.agarwal@email.com",
+    "enquiryDate": "2024-02-17",
+    "status": "Contacted",
+    "followUpDate": "2024-02-24"
+  },
+  {
+    "Id": 3,
+    "name": "Manish Tiwari",
+    "interestedCourse": "Data Science & Analytics",
+    "phone": "+91 7654321099",
+    "email": "manish.tiwari@email.com",
+    "enquiryDate": "2024-02-16",
+    "status": "New",
+    "followUpDate": "2024-02-25"
+  },
+  {
+    "Id": 4,
+    "name": "Ritu Yadav",
+    "interestedCourse": "Digital Marketing",
+    "phone": "+91 6543210988",
+    "email": "ritu.yadav@email.com",
+    "enquiryDate": "2024-02-15",
+    "status": "Contacted",
+    "followUpDate": "2024-02-26"
+  },
+  {
+    "Id": 5,
+    "name": "Amit Jain",
+    "interestedCourse": "Java Programming",
+    "phone": "+91 5432109877",
+    "email": "amit.jain@email.com",
+    "enquiryDate": "2024-02-14",
+    "status": "New",
+    "followUpDate": "2024-02-21"
+  },
+  {
+    "Id": 6,
+    "name": "Deepika Malik",
+    "interestedCourse": "UI/UX Design",
+    "phone": "+91 4321098766",
+    "email": "deepika.malik@email.com",
+    "enquiryDate": "2024-02-13",
+    "status": "Contacted",
+    "followUpDate": "2024-02-27"
+  },
+  {
+    "Id": 7,
+    "name": "Karan Singh",
+    "interestedCourse": "Mobile App Development",
+    "phone": "+91 3210987655",
+    "email": "karan.singh@email.com",
+    "enquiryDate": "2024-02-12",
+    "status": "New",
+    "followUpDate": "2024-02-23"
+  },
+  {
+    "Id": 8,
+    "name": "Shreya Bansal",
+    "interestedCourse": "Graphic Design",
+    "phone": "+91 2109876544",
+    "email": "shreya.bansal@email.com",
+    "enquiryDate": "2024-02-11",
+    "status": "Contacted",
+    "followUpDate": "2024-02-28"
+  },
+  {
+    "Id": 9,
+    "name": "Nikhil Pandey",
+    "interestedCourse": "Cybersecurity Fundamentals",
+    "phone": "+91 1098765433",
+    "email": "nikhil.pandey@email.com",
+    "enquiryDate": "2024-02-10",
+    "status": "New",
+    "followUpDate": "2024-02-24"
+  },
+  {
+    "Id": 10,
+    "name": "Swati Chopra",
+    "interestedCourse": "Business Analytics",
+    "phone": "+91 9087654322",
+    "email": "swati.chopra@email.com",
+    "enquiryDate": "2024-02-09",
+    "status": "Contacted",
+    "followUpDate": "2024-02-25"
+  },
+  {
+    "Id": 11,
+    "name": "Rohit Saxena",
+    "interestedCourse": "Artificial Intelligence",
+    "phone": "+91 8976543211",
+    "email": "rohit.saxena@email.com",
+    "enquiryDate": "2024-02-19",
+    "status": "New",
+    "followUpDate": ""
+  },
+  {
+    "Id": 12,
+    "name": "Neha Srivastava",
+    "interestedCourse": "Cloud Computing",
+    "phone": "+91 7865432100",
+    "email": "neha.srivastava@email.com",
+    "enquiryDate": "2024-02-20",
+    "status": "New",
+    "followUpDate": ""
+  }
+]

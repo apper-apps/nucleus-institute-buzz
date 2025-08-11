@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "name": "Arjun Patel",
+    "course": "Full Stack Web Development",
+    "phone": "+91 9876543210",
+    "email": "arjun.patel@email.com",
+    "enrollmentDate": "2024-01-15",
+    "status": "Active"
+  },
+  {
+    "Id": 2,
+    "name": "Priya Sharma",
+    "course": "Python Programming",
+    "phone": "+91 8765432109",
+    "email": "priya.sharma@email.com",
+    "enrollmentDate": "2024-01-18",
+    "status": "Active"
+  },
+  {
+    "Id": 3,
+    "name": "Vikash Kumar",
+    "course": "Data Science & Analytics",
+    "phone": "+91 7654321098",
+    "email": "vikash.kumar@email.com",
+    "enrollmentDate": "2024-01-22",
+    "status": "Active"
+  },
+  {
+    "Id": 4,
+    "name": "Sneha Joshi",
+    "course": "Digital Marketing",
+    "phone": "+91 6543210987",
+    "email": "sneha.joshi@email.com",
+    "enrollmentDate": "2024-01-25",
+    "status": "Active"
+  },
+  {
+    "Id": 5,
+    "name": "Rahul Deshmukh",
+    "course": "Java Programming",
+    "phone": "+91 5432109876",
+    "email": "rahul.deshmukh@email.com",
+    "enrollmentDate": "2024-01-28",
+    "status": "Active"
+  },
+  {
+    "Id": 6,
+    "name": "Anjali Singh",
+    "course": "UI/UX Design",
+    "phone": "+91 4321098765",
+    "email": "anjali.singh@email.com",
+    "enrollmentDate": "2024-02-02",
+    "status": "Active"
+  },
+  {
+    "Id": 7,
+    "name": "Aditya Rao",
+    "course": "Mobile App Development",
+    "phone": "+91 3210987654",
+    "email": "aditya.rao@email.com",
+    "enrollmentDate": "2024-02-05",
+    "status": "Active"
+  },
+  {
+    "Id": 8,
+    "name": "Kavya Nair",
+    "course": "Graphic Design",
+    "phone": "+91 2109876543",
+    "email": "kavya.nair@email.com",
+    "enrollmentDate": "2024-02-08",
+    "status": "Active"
+  },
+  {
+    "Id": 9,
+    "name": "Siddharth Mehta",
+    "course": "Cybersecurity Fundamentals",
+    "phone": "+91 1098765432",
+    "email": "siddharth.mehta@email.com",
+    "enrollmentDate": "2024-02-12",
+    "status": "Active"
+  },
+  {
+    "Id": 10,
+    "name": "Divya Gupta",
+    "course": "Business Analytics",
+    "phone": "+91 9087654321",
+    "email": "divya.gupta@email.com",
+    "enrollmentDate": "2024-02-15",
+    "status": "Active"
+  }
+]
