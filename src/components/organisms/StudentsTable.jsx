@@ -2,7 +2,7 @@ import React from "react";
 import ApperIcon from "@/components/ApperIcon";
 import { format } from "date-fns";
 
-const StudentsTable = ({ students, searchTerm }) => {
+const StudentsTable = ({ students, searchTerm, onStudentClick }) => {
   const filteredStudents = students.filter(student =>
     student.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     student.course.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -24,7 +24,11 @@ const StudentsTable = ({ students, searchTerm }) => {
           </thead>
           <tbody className="divide-y divide-slate-200">
             {filteredStudents.map((student) => (
-              <tr key={student.Id} className="hover:bg-slate-50 transition-colors">
+<tr 
+                key={student.Id} 
+                className="hover:bg-slate-50 transition-colors cursor-pointer" 
+                onClick={() => onStudentClick(student)}
+              >
                 <td className="px-6 py-4">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center">

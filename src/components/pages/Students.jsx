@@ -14,8 +14,9 @@ const Students = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
+const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedStudent, setSelectedStudent] = useState(null);
+  const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
   const loadStudents = async () => {
     setLoading(true);
     setError("");
@@ -34,8 +35,14 @@ const Students = () => {
     loadStudents();
   }, []);
 
-  const handleStudentAdded = (newStudent) => {
+const handleStudentAdded = (newStudent) => {
     setStudents(prev => [...prev, newStudent]);
+  };
+
+  const handleStudentUpdated = (updatedStudent) => {
+    setStudents(prev => prev.map(student => 
+      student.Id === updatedStudent.Id ? updatedStudent : student
+    ));
   };
 
   const handleOpenModal = () => {
@@ -44,6 +51,16 @@ const Students = () => {
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
+  };
+
+  const handleStudentClick = (student) => {
+    setSelectedStudent(student);
+    setIsDetailModalOpen(true);
+  };
+
+  const handleCloseDetailModal = () => {
+    setIsDetailModalOpen(false);
+    setSelectedStudent(null);
   };
 
   if (loading) return <Loading />;
@@ -94,15 +111,30 @@ const Students = () => {
           onAction={handleOpenModal}
         />
       ) : (
-        <StudentsTable students={students} searchTerm={searchTerm} />
+<StudentsTable 
+          students={students} 
+          searchTerm={searchTerm} 
+          onStudentClick={handleStudentClick}
+        />
       )}
 
       {/* Modal */}
-      <StudentModal
+<StudentModal
         isOpen={isModalOpen}
         onClose={handleCloseModal}
         onStudentAdded={handleStudentAdded}
+        mode="add"
       />
+      
+      {selectedStudent && (
+        <StudentModal
+          isOpen={isDetailModalOpen}
+          onClose={handleCloseDetailModal}
+          onStudentAdded={handleStudentUpdated}
+          mode="detail"
+          student={selectedStudent}
+        />
+      )}
     </div>
   );
 };
